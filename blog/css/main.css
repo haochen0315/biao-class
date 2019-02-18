@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button {
+  padding: 5px;
+  outline: none;
+  color: inherit;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+
+input:focus,
+button:focus {
+  border-color: #bbb;
+}
+
+.row {
+  display: flex;
+  height: 100%;
+}
+
+.col {
+  flex: 1;
+}
+
+.col-lg-1 {
+  flex-basis: 4.166666666666667%;
+}
+
+.col-lg-2 {
+  flex-basis: 8.333333333333333%;
+}
+
+.col-lg-3 {
+  flex-basis: 12.5%;
+}
+
+.col-lg-4 {
+  flex-basis: 16.666666666666667%;
+}
+
+.col-lg-5 {
+  flex-basis: 20.833333333333333%;
+}
+
+.col-lg-6 {
+  flex-basis: 25%;
+}
+
+.col-lg-7 {
+  flex-basis: 29.166666666666667%;
+}
+
+.col-lg-8 {
+  flex-basis: 33.333333333333333%;
+}
+
+.col-lg-9 {
+  flex-basis: 37.5%;
+}
+
+.col-lg-10 {
+  flex-basis: 41.666666666666667%;
+}
+
+.col-lg-11 {
+  flex-basis: 45.833333333333333%;
+}
+
+.col-lg-12 {
+  flex-basis: 50%;
+}
+
+.col-lg-13 {
+  flex-basis: 54.166666666666667%;
+}
+
+.col-lg-14 {
+  flex-basis: 58.333333333333333%;
+}
+
+.col-lg-15 {
+  flex-basis: 62.5%;
+}
+
+.col-lg-16 {
+  flex-basis: 66.666666666666667%;
+}
+
+.col-lg-17 {
+  flex-basis: 70.833333333333333%;
+}
+
+.col-lg-18 {
+  flex-basis: 75%;
+}
+
+.col-lg-19 {
+  flex-basis: 79.166666666666667%;
+}
+
+.col-lg-20 {
+  flex-basis: 83.333333333333333%;
+}
+
+.col-lg-21 {
+  flex-basis: 87.5%;
+}
+
+.col-lg-22 {
+  flex-basis: 91.666666666666667%;
+}
+
+.col-lg-23 {
+  flex-basis: 95.833333333333333%;
+}
+
+.col-lg-24 {
+  flex-basis: 100%;
+}
+
+.text-left {
+  text-align-last: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fwb {
+  font-weight: bold;
+}
+
+.fbl {
+  font-weight: lighter;
+}
+
+/* hover背景色 */
+.navbar .link-group>*:hover,
+.tags .link-group>*:hover {
+  background: #eee;
+}
+
+/* 侧边导航栏 */
+.nav,
+.shortcuts {
+  width: 100%;
+  height: 100%;
+  background: #fbfbfb;
+}
+
+.nav .userinfo>* {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+
+.nav .userinfo .userimg {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin: 40px auto 10px;
+  border-radius: 50%;
+}
+
+.userimg img {
+  width: 100%;
+}
+
+.local {
+  justify-content: center;
+  font-size: 10px;
+}
+
+.local img {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  align-self: center;
+}
+
+.navbar .search {
+  width: 85%;
+  margin: 10px auto 20px;
+  position: relative;
+}
+
+.navbar .search input {
+  width: 100%;
+}
+
+.navbar .search button {
+  width: 30px;
+  height: 28px;
+  right: 0;
+  top: 0px;
+  background: url(../img/Search.png);
+  background-position: 4px 4px;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  border: none;
+}
+
+.navbar .search button {
+  position: absolute;
+}
+
+.navbar .link-group>* {
+  padding: 10px 20px;
+
+}
+
+.navbar .link-group img {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.nav .about {
+  padding: 20px;
+  position: absolute;
+  bottom: 4%;
+}
+
+.nav .about a {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.nav .about img {
+  width: 15px;
+  height: 15px;
+}
+
+.nav .about p {
+  font-size: 8px;
+}
+
+/* 中间文章栏 */
+
+.article .card {
+  margin: 20px;
+}
+
+.article .card>* {
+  padding: 10px;
+}
+
+.article .card .title a {
+  font-size: 1.7em;
+}
+
+.article .card .title a:hover {
+  color: #aaa;
+}
+
+.card .tips>* {
+  margin-right: 10px;
+}
+
+.card .tips a:hover {
+  color: #222;
+}
+
+.card .tips img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  align-self: center;
+}
+
+/* 中间 右侧通用开始 */
+.article .card,
+.tags {
+  border-bottom: 1px solid #eee;
+}
+
+.card.first,
+.tags.first {
+  margin-top: 40px;
+}
+
+/* 中间 右侧通用结束 */
+
+/* 右侧标签栏 */
+.tags {
+  margin-top: 20px;
+}
+
+
+.tags span,
+.tags .link-group>* {
+  display: block;
+  padding: 5px 5px 5px 20px;
+}
+
+.tags span {
+  margin-bottom: 15px;
+}
+
+.tags .link-group>*:last-child {
+  margin-bottom: 5px;
+}
