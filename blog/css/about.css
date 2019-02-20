@@ -1,0 +1,9 @@
+.content .title img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.content .list>* {
+  margin-bottom: 10px;
+}

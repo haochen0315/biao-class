@@ -1,0 +1,33 @@
+.content .title {
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+.content .title img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.content .title span {
+  display: block;
+  font-size: 1.3em;
+}
+
+.content .list span,
+.content .list a {
+  font-size: 1.1em;
+}
+
+.content .list span {
+  margin-right: 5px;
+}
+
+.content .list a {
+  display: block;
+  color: #666;
+}
+
+.content .list a:hover {
+  color: #6190e8;
+}

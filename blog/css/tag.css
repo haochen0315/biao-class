@@ -1,0 +1,30 @@
+.card.first p {
+  margin-top: 5px;
+  color: #bbb;
+}
+
+.card .title p:first-child {
+  font-size: 1.7em;
+  color: #555;
+}
+
+.content {
+  flex-wrap: wrap;
+}
+
+.content>* {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.content>*>* {
+  padding: 10px;
+}
+
+
+.content>*:nth-child(2n) {
+  margin-left: 20px;
+}
+
+.content .showtag {
+  color: #6190e8;
+}

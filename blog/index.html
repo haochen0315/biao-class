@@ -1,154 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <title>四维鼠</title>
-  </head>
 
-  <body>
-    <div class="row">
-      <!-- 侧边导航栏 -->
-      <div class="col col-lg-4 nav">
-        <div class="userinfo  text-center">
-          <div class="userimg">
-            <img src="./img/user.jpeg" />
-          </div>
-          <div class="fwb">
-            Chowen
-          </div>
-          <div class="fwb">
-            Developer
-          </div>
-          <div class="local fbl row">
-            <img src="./img/local.png" />
-            <span>Shanghai,China</span>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="shortcut icon" href="./favicon.ico" />
+  <title>四维鼠</title>
+</head>
+
+<body>
+  <div class="row">
+    <!-- 侧边导航栏 -->
+    <div class="col col-lg-4 col-md-1 col-sm-1 nav">
+      <div class="userinfo  text-center">
+        <div class="userimg">
+          <img src="./img/user.jpeg" />
         </div>
-        <div class="navbar">
-          <form class="search">
-            <input placeholder="请输入关键词" />
-            <button></button>
-          </form>
-          <div class="link-group text-left">
-            <a href="#" class="row">
-              <img src="./img/home.png" />
-              首页</a
-            >
-            <a href="#" class="row"><img src="./img/tag.png" />标签</a>
-            <a href="#" class="row"><img src="./img/classify.png" />分类</a>
-            <a href="#" class="row"><img src="./img/file.png" />归档</a>
-            <a href="#" class="row"><img src="./img/about.png" />关于</a>
-          </div>
+        <div class="fwb">
+          Chowen
         </div>
-        <div class="about text-left">
-          <a href="#" title="Github"><img src="./img/github.png"/></a>
-          <a href="#" title="微博"><img src="./img/Weibo.png"/></a>
-          <a href="#" title="Github"><img src="./img/github.png"/></a>
-          <a href="#" title="微博"><img src="./img/Weibo.png"/></a>
-          <p>©all rights reserved</p>
+        <div class="fwb">
+          Developer
+        </div>
+        <div class="local fbl row">
+          <img src="./img/local.png" />
+          <span>Shanghai,China</span>
         </div>
       </div>
-      <!-- 中间文章栏 -->
-      <div class="col col-lg-16 article">
-        <div class="card first">
-          <div class="title fwb">
-            <a href="">那些年你错过的大雨</a>
-          </div>
-          <div class="row tips ">
-            <a href="#" class="row">
-              <img src="./img/date.png" title="归档" />2月18日
-            </a>
-            <a href="#" class="row">
-              <img src="./img/tag.png" title="标签" />个人
-            </a>
-            <a href="#" class="row"
-              ><img src="./img/classify.png" title="分类" />杂念
-            </a>
-            <a href="#" class="row"
-              ><img src="./img/chat.png" title="评论" />评论：233(条)
-            </a>
-            <div>字数统计：668(字)</div>
-            <div>阅读时长：3(分)</div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="title fwb">
-            <a href="">GitHub 远程仓库</a>
-          </div>
-          <div class="row tips ">
-            <a href="#" class="row">
-              <img src="./img/date.png" title="归档" />1月18日
-            </a>
-            <a href="#" class="row">
-              <img src="./img/tag.png" title="标签" />前端
-            </a>
-            <a href="#" class="row"
-              ><img src="./img/classify.png" title="分类" />GitHub
-            </a>
-            <a href="#" class="row"
-              ><img src="./img/chat.png" title="评论" />评论：233(条)
-            </a>
-            <div>字数统计：668(字)</div>
-            <div>阅读时长：3(分)</div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="title fwb">
-            <a href="">黄山.雪</a>
-          </div>
-          <div class="row tips ">
-            <a href="#" class="row">
-              <img src="./img/date.png" title="归档" />12月31日
-            </a>
-            <a href="#" class="row">
-              <img src="./img/tag.png" title="标签" />游记
-            </a>
-            <a href="#" class="row"
-              ><img src="./img/classify.png" title="分类" />杂念
-            </a>
-            <a href="#" class="row"
-              ><img src="./img/chat.png" title="评论" />评论：233(条)
-            </a>
-            <div>字数统计：668(字)</div>
-            <div>阅读时长：3(分)</div>
-          </div>
+      <div class="navbar">
+        <form class="search">
+          <input placeholder="请输入关键词" />
+          <button></button>
+        </form>
+        <div class="link-group text-left">
+          <a href="./index.html" class="row"><img src="./img/home.png" /><span>首页</span></a>
+          <a href="./tag.html" class="row"><img src="./img/tag.png" /><span>标签</span></a>
+          <a href="./classify.html" class="row"><img src="./img/classify.png" /><span>分类</span></a>
+          <a href="./file.html" class="row"><img src="./img/file.png" /><span>归档</span></a>
+          <a href="./about.html" class="row"><img src="./img/about.png" /><span>关于</span></a>
         </div>
       </div>
-      <!-- 右侧标签栏 -->
-      <div class="col col-lg-4 shortcuts">
-        <div class="tags first">
-          <span class="fwb">标签</span>
-          <div class="link-group">
-            <a href="#">个人(1)</a>
-            <a href="#">前端(3)</a>
-            <a href="#">工具(5)</a>
-            <a href="#">游记(7)</a>
-          </div>
+      <div class="about text-left">
+        <a href="#" title="Github"><img src="./img/github.png" /></a>
+        <a href="#" title="微博"><img src="./img/Weibo.png" /></a>
+        <a href="#" title="Github"><img src="./img/github.png" /></a>
+        <a href="#" title="微博"><img src="./img/Weibo.png" /></a>
+        <p>©all rights reserved</p>
+      </div>
+    </div>
+    <!-- 中间文章栏 -->
+    <div class="col col-lg-16 col-md-21 col-sm-23 article container scroll">
+      <div class="card first">
+        <div class="title fwb">
+          <a href="./article.html">那些年你错过的大雨</a>
         </div>
-        <div class="tags">
-          <span class="fwb">分类</span>
-          <div class="link-group">
-            <a href="#">GitHub(1)</a>
-            <a href="#">VUE(3)</a>
-            <a href="#">bootstrap(5)</a>
-            <a href="#">小程序(7)</a>
-            <a href="#">杂念(8)</a>
-          </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />2月18日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />个人
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />杂念
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
         </div>
-        <div class="tags">
-          <span class="fwb">归档</span>
-          <div class="link-group">
-            <a href="#">2019年2月(1)</a>
-            <a href="#">2019年1月(3)</a>
-            <a href="#">2018年12月(5)</a>
-            <a href="#">2018年11月(7)</a>
-          </div>
+      </div>
+      <div class="card">
+        <div class="title fwb">
+          <a href="">GitHub 远程仓库</a>
+        </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />1月18日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />前端
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />GitHub
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title fwb">
+          <a href="">黄山.雪</a>
+        </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />12月31日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />游记
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />杂念
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="title fwb">
+          <a href="">GitHub 远程仓库</a>
+        </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />1月18日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />前端
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />GitHub
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title fwb">
+          <a href="">黄山.雪</a>
+        </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />12月31日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />游记
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />杂念
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title fwb">
+          <a href="">GitHub 远程仓库</a>
+        </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />1月18日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />前端
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />GitHub
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title fwb">
+          <a href="">黄山.雪</a>
+        </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />12月31日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />游记
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />杂念
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title fwb">
+          <a href="">GitHub 远程仓库</a>
+        </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />1月18日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />前端
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />GitHub
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title fwb">
+          <a href="">黄山.雪</a>
+        </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />12月31日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />游记
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />杂念
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title fwb">
+          <a href="">GitHub 远程仓库</a>
+        </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />1月18日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />前端
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />GitHub
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title fwb">
+          <a href="">黄山.雪</a>
+        </div>
+        <div class="row tips ">
+          <a href="#" class="row">
+            <img src="./img/date.png" title="归档" />12月31日
+          </a>
+          <a href="#" class="row">
+            <img src="./img/tag.png" title="标签" />游记
+          </a>
+          <a href="#" class="row"><img src="./img/classify.png" title="分类" />杂念
+          </a>
+          <a href="#" class="row"><img src="./img/chat.png" title="评论" />评论：233(条)
+          </a>
+          <div>字数统计：668(字)</div>
+          <div>阅读时长：3(分)</div>
         </div>
       </div>
     </div>
-  </body>
+    <!-- 右侧标签栏 -->
+
+    <div class="col col-lg-4 col-md-2 shortcuts">
+      <div class="tags first">
+        <span class="fwb">标签</span>
+        <div class="link-group">
+          <a href="#">个人(1)</a>
+          <a href="#">前端(3)</a>
+          <a href="#">工具(5)</a>
+          <a href="#">游记(7)</a>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="fwb">分类</span>
+        <div class="link-group">
+          <a href="#">GitHub(1)</a>
+          <a href="#">VUE(3)</a>
+          <a href="#">bootstrap(5)</a>
+          <a href="#">小程序(7)</a>
+          <a href="#">杂念(8)</a>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="fwb">归档</span>
+        <div class="link-group">
+          <a href="#">2019年2月(1)</a>
+          <a href="#">2019年1月(3)</a>
+          <a href="#">2018年12月(5)</a>
+          <a href="#">2018年11月(7)</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
 </html>
